@@ -383,4 +383,25 @@ thead th {
   .sticky-inner {
     padding-bottom: max(12px, env(safe-area-inset-bottom));
   }
+  .field-error {
+  color: #b91c1c;
+  font-size: 0.88rem;
+  margin-top: -2px;
+}
+
+.record-card {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.record-card:hover {
+  background: #f8fafc;
+}
+
+.section-toggle:focus-visible,
+.record-card:focus-visible {
+  outline: 2px solid #0f172a;
+  outline-offset: 2px;
+}
 }
